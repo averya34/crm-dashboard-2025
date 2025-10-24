@@ -1,0 +1,8 @@
+# Download CSV from Google Drive first, then:
+git clone https://github.com/averya34/crm-dashboard-2025.git
+cd crm-dashboard-2025
+mkdir -p data
+# Copy your combined_crm_leads.csv to data/ folder
+git add data/combined_crm_leads.csv
+git commit -m "Add processed CRM data"
+git push origin main
